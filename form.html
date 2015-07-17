@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>24 Hour Door - Home</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    <meta name="description" content="Responsive Image Gallery with jQuery" />
+    <meta name="keywords" content="jquery, carousel, image gallery, slider, responsive, flexible, fluid, resize, css3" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <script language="javascript">
+<!--
+function validateit()
+{
+temp = true;
+ if(document.form.name.value == '' || document.form.phone.value == '')
+  {
+  temp = false;
+  alert('Please fill out the Name and Phone field to continue...');
+  }
+ return temp;
+}
+//-->
+</script>
+  </head>
+<!-- NAVBAR ================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <img class="img-responsive" src="images/louisvillelogo.png" width="132" height="55" href="#" style="border:none;">
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+                <li class="active"><a href="form.html">Instant Response Ticket</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Service Areas <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Louisville, KY</a></li>
+                    <li><a href="#">Cincinnati, OH</a></li>
+                    <li><a href="#">Memphis, TN</a></li>
+                    <li><a href="#">Raleigh, NC</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div id="centeredtext">
+      <h3>If it's a door, we will fix it. Available 24 hours a day, Call <kbd>1.888.884.4440</kbd></h3>
+    </div>
+    <br />
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+<br />
+<br />
+    <div class="container marketing">
+      <div id="responseform" style="display: table; margin: 0 auto;">
+      <form name="form" action="sampleproc.cfm" method="post" enctype="multipart/form-data" onSubmit="return validateit();">
+        <fieldset>
+        <legend>Personal Information:</legend>
+        Business or Home Owner's Name: <input type="text" name="businessname" style="float: right;"><br><br>
+        Street Address: <input type="text" name="streetaddress" style="float: right;"><br><br>
+        City: <input type="text" name="city" style="float: right;"><br><br>
+        <input type="submit" value="Submit">
+        </fieldset>
+
+      </form>
+      </div>
+      <!-- FOOTER -->
+        <footer>
+        <a href="https://twitter.com/LouisvilleDoor"><img class="img-circle" src="images/twitter.png" alt="Follow us on twitter!" width="35" height="35" style="border: none;"/></a>
+        <a href="http://www.manta.com/c/mm0h435/a-24-hour-door-louisville"><img class="img-circle" src="images/manta.jpg" alt="Find us on Manta!" width="35" height="35" style="border: none;"/></a>
+        <a href="http://www.yelp.com/biz/a-24-hour-door-louisville"><img class="img-circle" src="images/yelp.jpg" alt="Check us out on Yelp!" width="35" height="35" style="border: none;"/></a>
+        <a href="http://www.yellowpages.com/nationwide/mip/a-24-hour-door-america-21154632"><img class="img-circle" src="images/yp.png" alt="We're on YellowPages as well!" width="35" height="35" style="border: none;"></a>
+        <a href="https://www.facebook.com/LouisvilleDoor"><img class="img-circle" src="images/facebook.jpeg" alt="We're on YellowPages as well!" width="35" height="35" style="border: none;"></a>
+        <br>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p class="text-muted">&copy; 2015 A-24 Hour Door America, Inc., Tennesse Door, Inc.&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> 
+        </footer>
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/vendor/holder.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/carousel.js"></script>
+  </body>
+</html>

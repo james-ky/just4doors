@@ -1,0 +1,53 @@
+featurettes
+
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">We have an interactive map, <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">This is a map of all of our service areas. We want to make is at easy as possible for you to know whether or not we service your area. Go ahead, try it.</p>
+        </div>
+        <div class="col-md-5">
+          <iframe src="https://www.google.com/maps/d/embed?mid=zsJ1geMaxob4.kNu6RIY8CzJs" width="500" height="350" style="border: solid;"></iframe>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="images/brokenspring.jpg" alt="Generic placeholder image" style="border:none;">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#Placeholder Content#</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/brokenspring.jpg" alt="Generic placeholder image" style="border:none;">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+            <div class="footer">
+        <div class="fcontainer">
+        <a href="https://twitter.com/LouisvilleDoor"><img class="img-circle" src="images/twitter.png" alt="Follow us on twitter!" width="35" height="35" style="border: none;"/></a>
+        <a href="http://www.manta.com/c/mm0h435/a-24-hour-door-louisville"><img class="img-circle" src="images/manta.jpg" alt="Find us on Manta!" width="35" height="35" style="border: none;"/></a>
+        <a href="http://www.yelp.com/biz/a-24-hour-door-louisville"><img class="img-circle" src="images/yelp.jpg" alt="Check us out on Yelp!" width="35" height="35" style="border: none;"/></a>
+        <a href="http://www.yellowpages.com/nationwide/mip/a-24-hour-door-america-21154632"><img class="img-circle" src="images/yp.png" alt="We're on YellowPages as well!" width="35" height="35" style="border: none;"></a>
+        <a href="https://www.facebook.com/LouisvilleDoor"><img class="img-circle" src="images/facebook.jpeg" alt="We're on YellowPages as well!" width="35" height="35" style="border: none;"></a>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p class="text-muted">&copy; 2015 A-24 Hour Door America, Inc., Tennesse Door, Inc.&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> 
+        </div>
+      </div>

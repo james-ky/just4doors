@@ -1,0 +1,172 @@
+/*
+Author - James Richardson
+Version 0.0.5
+*/
+
+/* [Header CSS] */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  padding-bottom: auto;
+}
+
+img.mainlogo {
+  border:none;
+  max-width: 175px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+
+}
+
+
+
+#myCarousel{
+	background-color: #FFFFFF;
+  margin-bottom: 20px;
+  float: none;
+
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+
+}
+
+img {
+   border:1px solid #021a40;
+}
+
+#centeredtext h3 {
+	text-align: center;
+  margin: 0 auto;
+
+}
+
+img.map {
+  bottom:30px;
+
+}
+
+/*iframe.map {
+  border-style: groove;
+  border-width:10px;
+  border-color: #E6E6E6;
+  display: block;
+  margin-top:0;
+  margin-bottom:60px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 350px;
+  height: 400px; */
+}
+
+img.carousel .img-responsive {
+  margin: 0 auto;
+  border-style:solid;
+  border-width:2px;
+  border-color: black;
+
+}
+
+img.circle {
+  border-style:solid;
+  border-width:1px;
+  border-color: black;
+  width: 150px;
+  height: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+
+}
+.navbar-wrapper {
+  margin-top:0;
+  margin-bottom:50px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+#map-canvas {
+  height: 350px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  margin-bottom: 40px;
+
+}
+  
+#panel {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin-left: -130px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+
+}
+
+.intmap {
+margin: 0 auto;
+display: inline-block;
+}
+
+/*    <!-- INTERACTIVE MAP -->
+    <div class="col-md-12">
+      <iframe class="map" src="https://www.google.com/maps/d/embed?mid=zsJ1geMaxob4.kNu6RIY8CzJs"></iframe>
+    </div>
+    </div>
+    <!-- </INTERACTIVE MAP -->
+    */
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: auto;
+  background-color: #f5f5f5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+.containerf {
+  width: 100%;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.spacer  {
+  height: 75px;
+  width: 100%;
+  background: transparent;
+}
+
+.marginBottom-0 {margin-bottom:0;}
+
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover>a:after{border-left-color:#555;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
